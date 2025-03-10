@@ -22,6 +22,7 @@ public class GameManagerHelper : MonoBehaviour
     }
     public void PlayASoundButton(AudioClip audioClip)
     {
+        if (!gameManager) return;
         gameManager.PlayASound(audioClip, 1);
     }
     public void SetAudioMixerData()
