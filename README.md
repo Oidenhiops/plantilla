@@ -3,7 +3,7 @@ Titulo del juego: En este caso, estoy utilizando una librería de pago para gene
 - Se le agrega el componente Text Animator, en la parte de Edit Effects & Actions encuentras todos los efectos disponibles.
 - Por defecto viene el efecto de wave junto con un waitfor para esperar un tiempo para iniciar el efecto, si quieren conservar el efecto solo es cambiar la palabra Title game y poner el título que se desee, si lo quieren cambiar pueden mirar un poco como funciona la librería, pero con el ejemplo debería bastar para entenderla un poco.
 Manejo de resoluciones: Las resoluciones se obtienen directamente de unity. En el script ManagementData en la función SetStartingData se crean por primera vez las resoluciones disponibles.
-Manejo de idioma: En la raíz de todo el proyecto, se encuentra una carpeta ExternalAssets, ahí se encuentra el archivo original de los idiomas, el funcionamiento es el siguiente:
+Manejo de idioma: En la raíz de todo el proyecto, se encuentra una carpeta ExternalAssets, ahí se encuentra el archivo original de los idiomas en formato xlsx, una vez finalizado el archivo debe exportarse en formato CSV UTF-8 delimitado por comas, el funcionamiento es el siguiente:
 - Son 2 columnas principales: ID y Descripción
     - ID: Es el ID representativo del texto
     - Descripción: Es una breve descripción del texto, para saber a dónde hace referencia.
